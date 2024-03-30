@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="30D3F514-51C5-DDD1-1E48-8F5D044E1313" name="Sektor">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 13:18:52 UTC</createdTime>
+<ownerDesignName>class_base</ownerDesignName>
+<engineerTo>
+<item key="CC9637CA-39B5-8ADA-9744-BF316DB29BBC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_sektora" id="0E80394A-BF3F-B1F7-003A-A00D80F88D2C">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 13:19:16 UTC</createdTime>
+<ownerDesignName>class_base</ownerDesignName>
+<engineerTo>
+<item key="CC9637CA-39B5-8ADA-9744-BF316DB29BBC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naziv_sektora" id="F8DEF3C0-70C8-29E5-F097-C20DC2EADF51">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 13:19:44 UTC</createdTime>
+<ownerDesignName>class_base</ownerDesignName>
+<engineerTo>
+<item key="CC9637CA-39B5-8ADA-9744-BF316DB29BBC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kapacitet" id="1EC52453-A4CC-7197-7F69-CAB3028E0DF0">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 13:23:24 UTC</createdTime>
+<ownerDesignName>class_base</ownerDesignName>
+<engineerTo>
+<item key="CC9637CA-39B5-8ADA-9744-BF316DB29BBC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Opis" id="6C70E7CE-99DF-38F1-E248-5C6AFB5C83AF">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 13:23:46 UTC</createdTime>
+<ownerDesignName>class_base</ownerDesignName>
+<engineerTo>
+<item key="CC9637CA-39B5-8ADA-9744-BF316DB29BBC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Komentar" id="82170287-6884-4DD5-4BC2-430882D6CB28">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 13:23:59 UTC</createdTime>
+<ownerDesignName>class_base</ownerDesignName>
+<engineerTo>
+<item key="CC9637CA-39B5-8ADA-9744-BF316DB29BBC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3109A425-B073-6FC6-EF57-EA2DE5845AE3" name="Odsijek PK">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 13:19:42 UTC</createdTime>
+<ownerDesignName>class_base</ownerDesignName>
+<engineerTo>
+<item key="CC9637CA-39B5-8ADA-9744-BF316DB29BBC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0E80394A-BF3F-B1F7-003A-A00D80F88D2C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

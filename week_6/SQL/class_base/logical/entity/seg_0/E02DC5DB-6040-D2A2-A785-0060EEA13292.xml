@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E02DC5DB-6040-D2A2-A785-0060EEA13292" name="Zaposleni">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 12:45:57 UTC</createdTime>
+<ownerDesignName>class_base</ownerDesignName>
+<engineerTo>
+<item key="CC9637CA-39B5-8ADA-9744-BF316DB29BBC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="UID" id="51C349E9-3F0D-CD9C-DB78-C8E0B5A4444C">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 12:47:58 UTC</createdTime>
+<ownerDesignName>class_base</ownerDesignName>
+<engineerTo>
+<item key="CC9637CA-39B5-8ADA-9744-BF316DB29BBC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ime" id="F14BBEC3-A34D-C5F7-E0E9-8E923A06094B">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 12:52:05 UTC</createdTime>
+<ownerDesignName>class_base</ownerDesignName>
+<engineerTo>
+<item key="CC9637CA-39B5-8ADA-9744-BF316DB29BBC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prezime" id="C407C0A4-CA19-B549-41E1-A5FDD9C04971">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 12:54:40 UTC</createdTime>
+<ownerDesignName>class_base</ownerDesignName>
+<engineerTo>
+<item key="CC9637CA-39B5-8ADA-9744-BF316DB29BBC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_godine" id="FFDF17B2-ECE2-53CD-E612-C0B0299D9CB9">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 13:03:26 UTC</createdTime>
+<ownerDesignName>class_base</ownerDesignName>
+<engineerTo>
+<item key="CC9637CA-39B5-8ADA-9744-BF316DB29BBC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum_rodjenja" id="5CF24BEA-F209-0D6C-6994-E6DEE868B89F">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 13:04:35 UTC</createdTime>
+<ownerDesignName>class_base</ownerDesignName>
+<engineerTo>
+<item key="CC9637CA-39B5-8ADA-9744-BF316DB29BBC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pol" id="8ECA1781-78CD-EB3A-9024-595EADDD4C56">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 13:06:10 UTC</createdTime>
+<ownerDesignName>class_base</ownerDesignName>
+<engineerTo>
+<item key="CC9637CA-39B5-8ADA-9744-BF316DB29BBC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="36406AF7-408E-1FDA-F6A0-CC5C5955B340">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 13:06:44 UTC</createdTime>
+<ownerDesignName>class_base</ownerDesignName>
+<engineerTo>
+<item key="CC9637CA-39B5-8ADA-9744-BF316DB29BBC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_telefona" id="E28F86EE-6975-0F0C-4088-4863F27C5B50">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 13:08:24 UTC</createdTime>
+<ownerDesignName>class_base</ownerDesignName>
+<engineerTo>
+<item key="CC9637CA-39B5-8ADA-9744-BF316DB29BBC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="80F190B4-23AC-777E-BA22-DF1AB341CD3C" name="Zaposleni PK">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 12:51:07 UTC</createdTime>
+<ownerDesignName>class_base</ownerDesignName>
+<engineerTo>
+<item key="CC9637CA-39B5-8ADA-9744-BF316DB29BBC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>51C349E9-3F0D-CD9C-DB78-C8E0B5A4444C</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="333A0C15-1B6F-F751-DFF2-2A071667E156" name="Email">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 13:12:43 UTC</createdTime>
+<ownerDesignName>class_base</ownerDesignName>
+<engineerTo>
+<item key="CC9637CA-39B5-8ADA-9744-BF316DB29BBC" value="true"/>
+</engineerTo>
+<synonym>email</synonym>
+<newElementsIDs>36406AF7-408E-1FDA-F6A0-CC5C5955B340</newElementsIDs>
+<usedAttributes>
+<attributeRef>36406AF7-408E-1FDA-F6A0-CC5C5955B340</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="B677048B-8AB3-452F-145B-BC5EB1CDB6DA" name="Key_3">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 13:14:00 UTC</createdTime>
+<ownerDesignName>class_base</ownerDesignName>
+<engineerTo>
+<item key="CC9637CA-39B5-8ADA-9744-BF316DB29BBC" value="true"/>
+</engineerTo>
+<newElementsIDs>E28F86EE-6975-0F0C-4088-4863F27C5B50</newElementsIDs>
+<usedAttributes>
+<attributeRef>E28F86EE-6975-0F0C-4088-4863F27C5B50</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
