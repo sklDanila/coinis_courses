@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="56047101-3A85-2989-6080-667F8BDBF20A" name="Skola">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 14:56:32 UTC</createdTime>
+<ownerDesignName>calss</ownerDesignName>
+<engineerTo>
+<item key="B8716767-4F94-5700-9C44-75C401A36ECD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_skole" id="DA609535-3E53-B885-C9E7-789A918472DA">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 14:59:31 UTC</createdTime>
+<ownerDesignName>calss</ownerDesignName>
+<engineerTo>
+<item key="B8716767-4F94-5700-9C44-75C401A36ECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naziv" id="B2894785-3028-A34E-426C-ACA72F8C31EE">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 14:59:54 UTC</createdTime>
+<ownerDesignName>calss</ownerDesignName>
+<engineerTo>
+<item key="B8716767-4F94-5700-9C44-75C401A36ECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Adresa" id="9B6ED5FA-E248-9BB4-659F-AA14B3439FE0">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 15:00:04 UTC</createdTime>
+<ownerDesignName>calss</ownerDesignName>
+<engineerTo>
+<item key="B8716767-4F94-5700-9C44-75C401A36ECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tip_skole" id="2DD601A7-121B-F164-CBCC-89E3E57F9EE2">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 15:00:26 UTC</createdTime>
+<ownerDesignName>calss</ownerDesignName>
+<engineerTo>
+<item key="B8716767-4F94-5700-9C44-75C401A36ECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="917D4548-B012-802E-8FC0-01D276B71B66" name="Skola PK">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 14:59:53 UTC</createdTime>
+<ownerDesignName>calss</ownerDesignName>
+<engineerTo>
+<item key="B8716767-4F94-5700-9C44-75C401A36ECD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DA609535-3E53-B885-C9E7-789A918472DA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

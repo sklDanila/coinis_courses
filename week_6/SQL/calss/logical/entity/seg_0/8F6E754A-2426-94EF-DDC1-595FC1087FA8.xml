@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F6E754A-2426-94EF-DDC1-595FC1087FA8" name="Rekordi_dogadjaja">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 15:15:04 UTC</createdTime>
+<ownerDesignName>calss</ownerDesignName>
+<engineerTo>
+<item key="B8716767-4F94-5700-9C44-75C401A36ECD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="UID" id="856E79AF-3B7E-ACEF-6501-7715FE9B3FCD">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 15:15:56 UTC</createdTime>
+<generatorID>9B0FBB6E-6ED9-F21A-3FC5-64B8EAD55433</generatorID>
+<ownerDesignName>calss</ownerDesignName>
+<engineerTo>
+<item key="B8716767-4F94-5700-9C44-75C401A36ECD" value="true"/>
+</engineerTo>
+<referedAttribute>9514A64F-C0A1-6F09-726A-EDE838D90BBE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_dogadjaja" id="ADA686D9-ECCE-79B7-2A27-5CB8A1622886">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 15:16:46 UTC</createdTime>
+<generatorID>9AAAF2B8-8F96-9F47-B662-6478FE1885CB</generatorID>
+<ownerDesignName>calss</ownerDesignName>
+<engineerTo>
+<item key="B8716767-4F94-5700-9C44-75C401A36ECD" value="true"/>
+</engineerTo>
+<referedAttribute>E81C076A-A48E-7A05-E351-9F57EFDF5B9B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9EA69540-B47E-AFF9-1350-830B3620CC96" name="Rekordi_dogadjaja PK">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 15:15:56 UTC</createdTime>
+<ownerDesignName>calss</ownerDesignName>
+<engineerTo>
+<item key="B8716767-4F94-5700-9C44-75C401A36ECD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>856E79AF-3B7E-ACEF-6501-7715FE9B3FCD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

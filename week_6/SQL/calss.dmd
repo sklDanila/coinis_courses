@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="calss" id="69859B4B-BB5B-04F7-C8D3-E12A6401B224" version="3.5">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 14:44:40 UTC</createdTime>
+<ownerDesignName>calss</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>69859B4B-BB5B-04F7-C8D3-E12A6401B224</designId>
+</OSDM_Design>

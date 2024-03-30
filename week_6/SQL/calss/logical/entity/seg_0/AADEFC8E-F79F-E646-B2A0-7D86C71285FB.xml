@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AADEFC8E-F79F-E646-B2A0-7D86C71285FB" name="Komentara">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 15:12:22 UTC</createdTime>
+<ownerDesignName>calss</ownerDesignName>
+<engineerTo>
+<item key="B8716767-4F94-5700-9C44-75C401A36ECD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_komentara" id="495265F6-4F10-ADA1-6B48-6C6A1577B9C6">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 15:12:32 UTC</createdTime>
+<ownerDesignName>calss</ownerDesignName>
+<engineerTo>
+<item key="B8716767-4F94-5700-9C44-75C401A36ECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="komentar" id="AA50E404-D4AE-ACD0-9FCE-23AFCD9CDE4D">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 15:13:10 UTC</createdTime>
+<ownerDesignName>calss</ownerDesignName>
+<engineerTo>
+<item key="B8716767-4F94-5700-9C44-75C401A36ECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_dogadjaja" id="54037C45-59E6-6D1F-ED67-FB2D980AA380">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 15:14:14 UTC</createdTime>
+<generatorID>0C9B78A0-B331-D01D-E22B-DEFA528EC08A</generatorID>
+<ownerDesignName>calss</ownerDesignName>
+<engineerTo>
+<item key="B8716767-4F94-5700-9C44-75C401A36ECD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E81C076A-A48E-7A05-E351-9F57EFDF5B9B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="41B36A49-400A-1F8C-805B-A4B1460660B8" name="Komentara PK">
+<createdBy>Danila</createdBy>
+<createdTime>2024-03-30 15:12:59 UTC</createdTime>
+<ownerDesignName>calss</ownerDesignName>
+<engineerTo>
+<item key="B8716767-4F94-5700-9C44-75C401A36ECD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>495265F6-4F10-ADA1-6B48-6C6A1577B9C6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
