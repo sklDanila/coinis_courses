@@ -1,5 +1,5 @@
 import pandas as pd
-from sklearn.preprocessing import MinMaxScaler
+import matplotlib.pyplot as plt
 
 df = pd.read_csv("week_8\\HomeWork5\\Task_1\\salaries_dataset.csv")
 
@@ -114,3 +114,18 @@ def correlation():
     print(
         "The two columns with the lowest negative correlation are:", max_negative_corr
     )
+
+
+def standard_deviation():
+    global df
+    numeric_data = df.select_dtypes(include="number").iloc[:, 1:]
+    std_deviation = numeric_data.std()
+    print("Standard deviation for each column:")
+    print(std_deviation)
+    for column in numeric_data.columns:
+        plt.hist(numeric_data[column], bins=10, alpha=0.5, label=column)
+    plt.xlabel("Value")
+    plt.ylabel("Frequency")
+    plt.title("Distribution of values ​​in columns")
+    plt.legend(loc="upper right")
+    plt.show()
