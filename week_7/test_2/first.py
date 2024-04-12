@@ -1,13 +1,12 @@
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 
-# Загрузка файла CSV в DataFrame
+
 df = pd.read_csv("week_7\\test_2\\Sales_table.csv")
 
 scaler = MinMaxScaler()
 selected_column = "2019"
 # correlation_matrix = df.corr()
-# Получение минимального и максимального значения из столбца '2020'
 min_value = df["2020"].min()
 max_value = df["2020"].max()
 
