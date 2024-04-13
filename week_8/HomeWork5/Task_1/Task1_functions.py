@@ -17,8 +17,11 @@ def functions():
             print(
                 f"Different between max and avg values: {between_max_avg(column)}%",
             )
-            normalization(column)
-            update_file()
+            print("Want to normalize a selected column?\n1.Select\n2.Refuse")
+            select_num = int(input("Enter action number: "))
+            if select_num == 1:
+                normalization(column)
+                update_file()
         case 2:
             column = "salary"
             print(
@@ -28,8 +31,11 @@ def functions():
             print(
                 f"Different between max and avg values: {between_max_avg(column)}%",
             )
-            # normalization(column)
-            # update_file()
+            print("Want to normalize a selected column?\n1.Select\n2.Refuse")
+            select_num = int(input("Enter action number: "))
+            if select_num == 1:
+                normalization(column)
+                update_file()
         case 3:
             column = "salary_in_usd"
             print(
@@ -39,8 +45,11 @@ def functions():
             print(
                 f"Different between max and avg values: {between_max_avg(column)}%",
             )
-            normalization(column)
-            update_file()
+            print("Want to normalize a selected column?\n1.Select\n2.Refuse")
+            select_num = int(input("Enter action number: "))
+            if select_num == 1:
+                normalization(column)
+                update_file()
         case 4:
             column = "remote_ratio"
             print(
@@ -50,8 +59,11 @@ def functions():
             print(
                 f"Different between max and avg values: {between_max_avg(column)}%",
             )
-            normalization(column)
-            update_file()
+            print("Want to normalize a selected column?\n1.Select\n2.Refuse")
+            select_num = int(input("Enter action number: "))
+            if select_num == 1:
+                normalization(column)
+                update_file()
 
 
 def start():
